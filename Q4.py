@@ -1,10 +1,10 @@
 def max_occur(string):
-    count
+    count={}
     for i in string:
-            count[i]=count.get(char,0)+1
+            count[i]=count.get(i,0)+1
 
-    max_char=max(char_count,key=char_count.get)
-    max_count=char_count[max_char]
+    max_char=max(count,key=count.get)
+    max_count=count[max_char]
 
     return max_char, max_count
 
